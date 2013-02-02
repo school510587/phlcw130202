@@ -1,6 +1,6 @@
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.67])
+AC_PREREQ([2.65])
 
 AC_INIT([libchewing],[0.3.4],[chewing-devel@googlegroups.com])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -194,6 +194,7 @@ AC_CONFIG_FILES([
         src/porting_layer/Makefile
         src/porting_layer/src/Makefile
         src/tools/Makefile
+	src/phoneless/Makefile
         test/Makefile
 ])
 AC_OUTPUT
